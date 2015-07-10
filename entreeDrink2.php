@@ -5,7 +5,7 @@
 	$entree = $_GET["my_entree"];
 	$dessert = 'ice cream';
 	
-	/*assign drink based on entree */
+	/*assign drink based on dinner entree */
 	function select_beverage($dinner) {
 	if ($dinner == "steak") {
 		return "Red Wine";
